@@ -7,7 +7,6 @@ import json
 import wandb
 import argparse
 from helpers import set_seed, plot_learning_curve, save_video, parse_args, EarlyStoppingMonitor, TorchRunningNormalizer, TorchExperienceReplay
-from tabular import TorchTabularQLearning, TabularGDSTDMLearning
 from dqn_repeat import TorchDQNGDSTDMLearning, TorchDQNLearning, TorchDQNGDLearning
 from main import TorchGDLearning
 

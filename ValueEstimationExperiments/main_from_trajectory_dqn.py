@@ -12,7 +12,7 @@ import random
 import argparse
 from typing import Dict, List, Tuple, Any, Union
 import copy
-from ValuEstimationExperiments.main_from_trajectory_q_learning import  TorchLinearTrajectoryQLearning
+from main_from_trajectory_q_learning import  TorchLinearTrajectoryQLearning
     
 import gc
 

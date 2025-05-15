@@ -121,6 +121,6 @@ def main(save_dir, agent_class):
 
 
 if __name__ == "__main__":
-    from ValuEstimationExperiments.main_from_trajectory_q_learning import TorchLinearTrajectoryQLearning
+    from main_from_trajectory_q_learning import TorchLinearTrajectoryQLearning
     save_dir = "/home/sancar/Improving-Policy-Learning-with-Gradient-Stopping/current_q_learning/traj_results/trajectory_q_gd_50k/20250416_234736"
     main(save_dir, TorchLinearTrajectoryQLearning)
