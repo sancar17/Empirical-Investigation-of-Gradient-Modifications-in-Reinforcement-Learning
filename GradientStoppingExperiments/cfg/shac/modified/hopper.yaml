@@ -1,0 +1,47 @@
+params:
+  config:
+    actor_learning_rate: 0.005685210440683698
+    betas:
+    - 0.7
+    - 0.95
+    critic_iterations: 11
+    critic_learning_rate: 0.000609799195629372
+    critic_method: td-lambda
+    gamma: 0.99
+    grad_norm: 1.0
+    lambda: 0.95
+    lr_schedule: linear
+    max_epochs: 2000
+    name: df_hopper_shac
+    num_actors: 256
+    num_batch: 4
+    obs_rms: true
+    player:
+      determenistic: false
+      games_num: 1
+      num_actors: 2
+      print_stats: true
+    ret_rms: false
+    save_interval: 400
+    steps_num: 30
+    target_critic_alpha: 0.2
+    truncate_grads: true
+  diff_env:
+    MM_caching_frequency: 16
+    episode_length: 1000
+    name: HopperEnv
+    stochastic_env: true
+  network:
+    actor: ActorStochasticMLP
+    actor_mlp:
+      activation: elu
+      units:
+      - 128
+      - 64
+      - 32
+    critic: CriticMLP
+    critic_mlp:
+      activation: elu
+      units:
+      - 64
+      - 64

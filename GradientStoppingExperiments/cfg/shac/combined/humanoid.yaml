@@ -1,0 +1,46 @@
+params:
+  config:
+    actor_learning_rate: 0.004169155869086951
+    betas:
+    - 0.7
+    - 0.95
+    critic_iterations: 11
+    critic_learning_rate: 0.0022259249345449508
+    critic_method: td-lambda
+    gamma: 0.99
+    grad_norm: 1.0
+    lambda: 0.95
+    lr_schedule: linear
+    max_epochs: 2000
+    name: df_humanoid_shac
+    num_actors: 64
+    num_batch: 4
+    obs_rms: true
+    player:
+      determenistic: true
+      games_num: 1
+      num_actors: 1
+      print_stats: true
+    ret_rms: false
+    save_interval: 400
+    steps_num: 38
+    target_critic_alpha: 0.995
+    truncate_grads: true
+  diff_env:
+    MM_caching_frequency: 48
+    episode_length: 1000
+    name: HumanoidEnv
+    stochastic_env: true
+  network:
+    actor: ActorStochasticMLP
+    actor_mlp:
+      activation: elu
+      units:
+      - 256
+      - 128
+    critic: CriticMLP
+    critic_mlp:
+      activation: elu
+      units:
+      - 128
+      - 128

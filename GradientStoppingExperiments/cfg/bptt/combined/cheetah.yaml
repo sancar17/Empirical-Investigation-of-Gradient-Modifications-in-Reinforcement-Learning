@@ -1,0 +1,37 @@
+params:
+  algo:
+    name: adam
+  config:
+    actor_learning_rate: 0.0023078369450668388
+    betas:
+    - 0.7
+    - 0.95
+    env_name: dflex
+    gamma: 0.99
+    grad_norm: 1.0
+    lr_schedule: linear
+    max_epochs: 2000
+    name: df_cheetah_bptt
+    num_actors: 32
+    obs_rms: true
+    player:
+      determenistic: true
+      games_num: 6
+      num_actors: 2
+      print_stats: true
+    steps_num: 71
+    truncate_grads: true
+  diff_env:
+    MM_caching_frequency: 16
+    episode_length: 1000
+    name: CheetahEnv
+    stochastic_env: true
+  network:
+    actor: ActorStochasticMLP
+    actor_logstd_init: -1.0
+    actor_mlp:
+      activation: elu
+      units:
+      - 128
+      - 64
+      - 32
