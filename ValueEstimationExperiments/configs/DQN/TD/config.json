@@ -1,5 +1,5 @@
 {
-  "config": "/home/sancar/Improving-Policy-Learning-with-Gradient-Stopping/current_q_learning/results/dqn_t1/config.json",
+  "config": null,
   "method": "dqn",
   "feature_extractor": "rbf",
   "learning_rate": 0.0025,
@@ -24,9 +24,9 @@
   "grad_clip": 0.7,
   "early_stopping_patience": 100,
   "early_stopping_threshold": 0,
-  "save_name": "dqn_t1",
-  "wandb_name": "dqn_t1",
-  "wandb_project": "Tabular Q Learning Lunar Lander\"",
+  "save_name": "TD",
+  "wandb_name": "TD",
+  "wandb_project": "DQN Experiments",
   "use_wandb": true,
   "seed": 42
 }

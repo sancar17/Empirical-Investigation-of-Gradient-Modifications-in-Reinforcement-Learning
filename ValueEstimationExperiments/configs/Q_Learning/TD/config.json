@@ -1,5 +1,5 @@
 {
-  "config": "/home/sancar/Improving-Policy-Learning-with-Gradient-Stopping/current_q_learning/results/q_learning_polynomial_features/config.json",
+  "config": null,
   "method": "linear",
   "feature_extractor": "polynomial",
   "repeat_num": 3,
@@ -25,8 +25,8 @@
   "grad_clip": 0.7,
   "early_stopping_patience": 100,
   "early_stopping_threshold": 0,
-  "save_name": "q_learning_polynomial_features",
-  "wandb_name": "q_learning_polynomial_features",
+  "save_name": "TD",
+  "wandb_name": "TD",
   "wandb_project": "Q Learning Experiments",
   "use_wandb": true,
   "seed": 42

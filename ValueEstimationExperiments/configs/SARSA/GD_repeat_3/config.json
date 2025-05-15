@@ -1,6 +1,6 @@
 {
   "config": null,
-  "method": "sarsa-gd",
+  "method": "gd",
   "feature_extractor": "polynomial",
   "repeat_num": 3,
   "learning_rate": 0.05,
@@ -25,9 +25,9 @@
   "grad_clip": 0.7,
   "early_stopping_patience": 100,
   "early_stopping_threshold": 0,
-  "save_name": "sarsa_gd_repeat3",
-  "wandb_name": "sarsa_gd_repeat3",
-  "wandb_project": "Q Learning Experiments",
+  "save_name": "GD_repeat3",
+  "wandb_name": "GD_repeat3",
+  "wandb_project": "SARSA Experiments",
   "use_wandb": true,
   "seed": 42
 }

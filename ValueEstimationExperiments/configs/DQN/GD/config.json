@@ -1,8 +1,8 @@
 {
-  "config": "results/dqn_gd/config.json",
+  "config": null,
   "method": "dqn-gd",
   "feature_extractor": "rbf",
-  "repeat_num": 3,
+  "repeat_num": 1,
   "learning_rate": 0.0025,
   "discount_factor": 0.99,
   "lr_decay": 0.9999,
@@ -25,9 +25,9 @@
   "grad_clip": 0.7,
   "early_stopping_patience": 100,
   "early_stopping_threshold": 0,
-  "save_name": "dqn_gd",
-  "wandb_name": "dqn_gd",
-  "wandb_project": "Q Learning Experiments",
+  "save_name": "GD_updates",
+  "wandb_name": "GD_updates",
+  "wandb_project": "DQN Experiments",
   "use_wandb": true,
   "seed": 42
 }

@@ -1,7 +1,7 @@
 {
   "env": "LunarLander-v2",
   "method": "gds_tdm",
-  "save_name": "sarsa_gds_tdm_repeat3",
+  "save_name": "GDS-TDM_repeat3",
   "episodes": 100000,
   "validate_freq": 50,
   "early_stopping_patience": 1000,
@@ -15,8 +15,8 @@
   "grad_clip": 0.7,
   "seed": 42,
   "use_wandb": true,
-  "wandb_project": "sarsa-onpolicy",
-  "wandb_name": "sarsa_gds_tdm_repeat3",
+  "wandb_project": "SARSA Experiments",
+  "wandb_name": "GDS-TDM_repeat3",
   "feature_extractor": "polynomial",
   "poly_degree": 3,
   "repeat_num": 3

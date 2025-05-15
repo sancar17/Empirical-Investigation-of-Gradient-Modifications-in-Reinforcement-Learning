@@ -1,5 +1,5 @@
 {
-  "config": "results/sarsa_repeat_3/config.json",
+  "config": null,
   "method": "sarsa",
   "feature_extractor": "polynomial",
   "repeat_num": 3,
@@ -25,9 +25,9 @@
   "grad_clip": 0.7,
   "early_stopping_patience": 100,
   "early_stopping_threshold": 0,
-  "save_name": "sarsa_repeat_3",
-  "wandb_name": "sarsa_repeat_3",
-  "wandb_project": "Q Learning Experiments",
+  "save_name": "TD_repeat3",
+  "wandb_name": "TD_repeat3",
+  "wandb_project": "SARSA Experiments",
   "use_wandb": true,
   "seed": 42
 }

@@ -1,5 +1,5 @@
 {
-  "config": "/home/sancar/Improving-Policy-Learning-with-Gradient-Stopping/current_q_learning/results/repeat_hybrid_q_learning_polynomial/config.json",
+  "config": null,
   "switch_episode": 5000,
   "feature_extractor": "polynomial",
   "poly_degree": 3,
@@ -27,8 +27,8 @@
   "save_model_freq": 100,
   "grad_clip": 0.7,
   "early_stopping_patience": 100,
-  "save_name": "repeat_hybrid_q_learning_polynomial",
-  "wandb_name": "repeat_hybrid_q_learning_polynomial",
+  "save_name": "TD_repeat_hybrid",
+  "wandb_name": "TD_repeat_hybrid",
   "wandb_project": "Q Learning Experiments",
   "use_wandb": true,
   "seed": 42

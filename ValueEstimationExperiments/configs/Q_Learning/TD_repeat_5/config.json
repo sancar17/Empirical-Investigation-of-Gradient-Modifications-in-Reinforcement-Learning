@@ -1,5 +1,5 @@
 {
-  "config": "/home/sancar/Improving-Policy-Learning-with-Gradient-Stopping/current_q_learning/results/repeat_5/config.json",
+  "config": null,
   "method": "linear",
   "feature_extractor": "polynomial",
   "repeat_num": 5,
@@ -25,9 +25,9 @@
   "grad_clip": 0.7,
   "early_stopping_patience": 100,
   "early_stopping_threshold": 0,
-  "save_name": "repeat_5",
-  "wandb_name": "repeat_5",
-  "wandb_project": "Tabular Q Learning Lunar Lander\"",
+  "save_name": "TD_repeat_5",
+  "wandb_name": "TD_repeat_5",
+  "wandb_project": "Q Learning Experiments",
   "use_wandb": true,
   "seed": 42
 }

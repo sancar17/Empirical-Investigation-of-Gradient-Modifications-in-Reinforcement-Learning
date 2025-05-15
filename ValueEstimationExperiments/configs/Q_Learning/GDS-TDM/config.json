@@ -1,5 +1,5 @@
 {
-  "config": "results/q_learning_polynomial_gds_tdm_new/config.json",
+  "config": null,
   "method": "gds-tdm",
   "feature_extractor": "polynomial",
   "repeat_num": 3,
@@ -25,8 +25,8 @@
   "grad_clip": 0.7,
   "early_stopping_patience": 100,
   "early_stopping_threshold": 0,
-  "save_name": "q_learning_polynomial_gds_tdm_new",
-  "wandb_name": "q_learning_polynomial_gds_tdm_new",
+  "save_name": "GDS-TDM",
+  "wandb_name": "GDS-TDM",
   "wandb_project": "Q Learning Experiments",
   "use_wandb": true,
   "seed": 42
