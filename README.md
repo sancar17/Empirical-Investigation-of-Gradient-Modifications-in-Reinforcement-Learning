@@ -1,8 +1,6 @@
 # Empirical Investigation of Gradient Modifications in Reinforcement Learning
 
-This repository contains the experimental codebase for my Master's thesis:  
-**_Empirical Investigation of Gradient Modifications in Reinforcement Learning_**  
-(Technical University of Munich, 2025)
+This repository contains the experimental codebase for my Master's thesis: **_Empirical Investigation of Gradient Modifications in Reinforcement Learning_** (Technical University of Munich, 2025)
 
 The project explores the effects of gradient-based modifications in reinforcement learning settings, focusing on differentiable physics environments, discrete control tasks, and efficient algorithmic implementations.
 
