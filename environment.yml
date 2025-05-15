@@ -1,0 +1,36 @@
+name: thesis-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - gymnasium
+  - jax
+  - jaxlib
+  - flax
+  - optax
+  - gymnax
+  - torch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8
+  - opencv
+  - pip:
+      - wandb
+      - moviepy
+      - rich
+      - tqdm
+      - seaborn
+      - tensorboard
+      - optuna
+      - gym
+      - chex
+      - jaxtyping
+      - dm-tree
