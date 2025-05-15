@@ -40,7 +40,7 @@ To replicate the experimental setup, create the Conda environment using the prov
 
 ```bash
 conda env create -f environment.yml
-conda activate gradient-rl
+conda activate thesis-env
 ```
 
 ### Running Experiments
