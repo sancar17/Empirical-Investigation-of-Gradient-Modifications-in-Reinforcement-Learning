@@ -1,0 +1,23 @@
+{
+  "env": "LunarLander-v2",
+  "method": "gds_tdm",
+  "save_name": "sarsa_gds_tdm_repeat3",
+  "episodes": 100000,
+  "validate_freq": 50,
+  "early_stopping_patience": 1000,
+  "learning_rate": 0.001,
+  "min_lr": 0.0001,
+  "lr_decay": 0.99,
+  "discount_factor": 0.99,
+  "epsilon": 1.0,
+  "min_epsilon": 0.05,
+  "epsilon_decay": 0.99,
+  "grad_clip": 0.7,
+  "seed": 42,
+  "use_wandb": true,
+  "wandb_project": "sarsa-onpolicy",
+  "wandb_name": "sarsa_gds_tdm_repeat3",
+  "feature_extractor": "polynomial",
+  "poly_degree": 3,
+  "repeat_num": 3
+}
